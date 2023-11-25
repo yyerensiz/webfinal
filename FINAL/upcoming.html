@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SENEMA</title>
+    <link rel="stylesheet" href="css/cstyle.css">
+    <link rel="shortcut icon" href="logo/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo/senema logo.png" alt="" width="125" height="50" class="d-inline-block align-text-center" >
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="upcoming.html"><i class="fa-solid fa-calendar"></i> Upcoming</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="films.html"><i class="fa-solid fa-film"></i> Films</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="serials.html"><i class="fa-solid fa-clapperboard"></i> Serials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="favorite.html"><i class="fa-solid fa-heart"></i> Favorite</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--HEADER end-->
+
+
+  
+ <!--   
+    <div class="play-container container">
+      <img src="img/oppenheimer.jpg" alt="" class="play-img">
+      <div class="play-text">
+          <h2>Oppenheimer</h2>
+
+          <div class="tags">
+              <span>biography</span>
+              <span>drama</span>
+              <span>history</span>
+          </div>
+          
+          <a href="video/Oppenheimer.mp4" class="watch-btn">
+              <i class="bx bx-right-arrow" ></i>
+              <span>Watch the trailer</span>
+          </a>
+      </div>
+      
+      <i class="bx bx-right-arrow play-movie" ></i>
+      
+      <div class="video-container">
+          
+          <div class="video-box">
+              <video id="myvideo" src="video/Oppenheimerf.mp4" controls></video>
+              <i class='bx bx-x close-video'></i>
+          </div>
+      </div>
+  </div>
+-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="video/hauss.mp4"><img src="img/s-18hmd.jpg" class="d-block w-100" alt="1"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>House, M.D.</h2>
+          <div class="tags">
+            <span>drama</span>
+            <span>detective</span>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="video/suitss.mp4"><img src="img/s-17sui.jpg" class="d-block w-100" alt="2"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Suits</h2>
+          <div class="tags">
+            <span>drama</span>
+            <span>comedia</span>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="video/tedlassos.mp4"><img src="img/s-15tl.jpg" class="d-block w-100" alt="3"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Ted Lasso</h2>
+          <div class="tags">
+            <span>sports</span>
+            <span>comedia</span>
+        </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="placeholders">
+    <div class="card text-bg-dark">
+      <a href="video/bbs.mp4"><img src="img/s-14bb.jpg" class="d-block w-100" alt="1"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Breaking Bad</h2>
+          <div class="tags">
+            <span>thriller</span>
+            <span>drama</span>
+            <span>crime</span>
+        </div>
+        </div>
+    </div>
+    <div class="card text-bg-dark">
+      <a href="video/brassics.mp4"><img src="img/s-19bc.jpg" class="d-block w-100" alt="2"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Brassic</h2>
+          <div class="tags">
+            <span>action</span>
+            <span>comedy</span>
+            <span>crime</span>
+        </div>
+        </div>
+    </div>
+    <div class="card text-bg-dark">
+      <a href="video/bettercss.mp4"><img src="img/S-16g.jpg" class="d-block w-100" alt="3"></a>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Better Call Saul</h2>
+          <div class="tags">
+            <span>detective</span>
+            <span>drama</span>
+            <span>crime</span>
+        </div>
+        </div>
+    </div>
+    
+  </div>
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Senema All rights reserved</p>
+    </div>
+
+
+    
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/cf80a64f9a.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

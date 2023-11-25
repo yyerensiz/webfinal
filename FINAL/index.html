@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SENEMA</title>
+    <link rel="shortcut icon" href="logo/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/cstyle.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand huina" href="index.html">
+                    <img src="logo/senema logo.png" alt="" width="125" height="50" class="d-inline-block align-text-center" >
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fa-solid fa-circle-info"></i> About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="upcoming.html"><i class="fa-solid fa-calendar"></i> Upcoming</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="films.html"><i class="fa-solid fa-film"></i> Films</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="serials.html"><i class="fa-solid fa-clapperboard"></i> Serials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="favorite.html"><i class="fa-solid fa-heart"></i> Favorite</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--HEADER end-->
+
+
+
+    <section class="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/m1-Oppenheimer.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FIRST</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/m2-TheConjuring.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SECOND</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/m0-Anime.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>THIRD</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--HOME-->
+    <section class="home container" id="home"> 
+      <!-- Movie Carousel --> 
+      <h2>Movies</h2> 
+      <div class="carousel"> 
+          <!-- Movie Cards go here --> 
+          <div class="card"> 
+              <img src="img/m3-FightClub.png" class="card-img-top" alt="Movie 1"> 
+              <div class="card-body"> 
+              </div> 
+          </div> 
+          <!-- Repeat for other movies --> 
+      </div> 
+
+      <!-- Series Carousel --> 
+      <h2>Series</h2> 
+      <div class="carousel"> 
+          <!-- Series Cards go here --> 
+          <div class="card"> 
+              <img src="img/m4-Ring.png" class="card-img-top" alt="Series 1"> 
+          </div>
+          
+          <!-- Repeat for other series --> 
+      </div> 
+
+      <!-- Upcoming Carousel --> 
+      <h2>Upcoming Movies</h2> 
+      <div class="carousel" id="upcoming-carousel"> 
+          <!-- Upcoming Movie Cards go here --> 
+          <div class="card"> 
+              <img src="img/m7-Interstellar.png" class="card-img-top" alt="Upcoming Movie 1"> 
+              <div class="card-body"> 
+              </div> 
+          </div> 
+          <!-- Repeat for other upcoming movies --> 
+      </div> 
+  </section>
+    <!--HOME-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Copyright-->
+    <div class="copyright">
+        <p>&#169; Senema All rights reserved</p>
+    </div>
+
+
+    
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/cf80a64f9a.js" crossorigin="anonymous"></script>
+</body>
+</html>

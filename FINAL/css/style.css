@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@font-face {
+        font-family: "monument";
+        src: url('fonts/monumentextended-regular-webfont.woff2') format('woff2'),
+        url('fonts/monumentextended-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+@font-face {
+            font-family: "camel";
+            src: url('fonts/camel.woff2') format('woff2'),
+            url('fonts/camel.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            }
+
+@font-face {
+            font-family: "night";
+            src: url('fonts/tuesdaynight-regular-webfont.woff2') format('woff2'),
+             url('fonts/tuesdaynight-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            }
+:root {
+    --main: #b01515;
+    --hover: hsl(0, 76%, 51%);
+    --white: #ffffff; 
+    --body: #000000; 
+    --container: #2d2d2d; 
+    --text-color: var(--white); 
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.bx{
+    cursor: pointer;
+}
+body{
+    background:var(--body);
+    color: var(--body);
+}
+.container{
+    max-width: 1060px;
+    margin: auto;
+    width: 100%;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--body);
+    z-index: 100;
+}
+.navbar .navbar-brand {
+    margin-left: 2rem;
+}
+
+.carousel {
+    width: 434px;
+    height: 434px;
+    border-radius: 38px;
+    border: 10px solid #A23E43;
+    background: rgba(217, 217, 217, 0.00);
+}
+
+.carousel img {
+    border-radius: 25px;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    Background-image:var("img/Main1/png");
+}
+
+.main-video video{
+    width: 100%;
+    border-radius: .5rem;
+}
+.video img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
